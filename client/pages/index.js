@@ -1,11 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Index = () => {
-  return (
-    <div>
-      <h1>Startup Acquisitions</h1>
-    </div>
-  );
-};
+import { Home } from '../components/Home'
 
-export default Index;
+const Index = () => <Home />
+
+export default Index
